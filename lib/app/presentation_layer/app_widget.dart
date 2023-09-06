@@ -27,8 +27,8 @@ class AppWidget extends StatelessWidget {
         return OrientationBuilder(
           builder: (context, orientation) {
             SizeConfig(
-              designScreenWidth: 375,
-              designScreenHeight: 812,
+              designScreenWidth: 1080,
+              designScreenHeight: 2280,
             ).init(constraints, orientation);
             return MaterialApp.router(
               title: 'TicTacToe ML App',

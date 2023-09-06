@@ -19,6 +19,11 @@ dependencies:
   flutter_localizations:
     sdk: flutter
   google_fonts: ^5.1.0
+  dio: ^4.0.6
+  pretty_dio_logger: ^1.2.0-beta-1
+  shared_preferences: ^2.2.1
+  logger: ^1.1.0
+  localization: ^2.1.0
 
 dev_dependencies:
   flutter_test:
