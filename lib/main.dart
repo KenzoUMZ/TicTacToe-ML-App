@@ -1,9 +1,11 @@
-import 'package:flutter/widgets.dart';
-import 'package:flutter_modular/flutter_modular.dart';
-
-
-import 'app/presentation_layer/presentation_layer.dart';
+import 'package:flutter/material.dart';
+import 'view/home_page.dart';
 
 void main() {
-  runApp(ModularApp(module: AppModule(), child: const AppWidget()));
+  runApp(
+    const MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: HomePage(),
+    ),
+  );
 }
